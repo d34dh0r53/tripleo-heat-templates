@@ -176,6 +176,7 @@ resource_registry:
   OS::TripleO::Services::HAproxy: deployment/haproxy/haproxy-pacemaker-puppet.yaml
   OS::TripleO::Services::HAProxyPublicTLS: deployment/haproxy/haproxy-public-tls-inject.yaml
   OS::TripleO::Services::HAProxyInternalTLS: OS::Heat::None
+  OS::TripleO::Services::IPAOTP: OS::Heat::None
   OS::TripleO::Services::Iscsid: deployment/iscsid/iscsid-container-puppet.yaml
   OS::TripleO::Services::Keepalived: OS::Heat::None
   OS::TripleO::Services::Memcached: deployment/memcached/memcached-container-puppet.yaml
